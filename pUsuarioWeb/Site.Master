@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="pUsuarioWeb.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="page-header" style="background-color:limegreen; ">
+        &nbsp;<img src="C:\Users\HP8570P\Desktop\Aplicada2\LogoL&M.png" style="width:150px; height:75px;" >
+        <h1 class="text-center" style="font-size: x-large; font-family: 'Action man', Times, serif; font: bold;">Menu principal</h1>
+    &nbsp;</div> 
+ 
+    <div class="container">
+  <ul class="nav nav-pills">
+    <li class="active"><a href="#">L&M Comercial</a></li>
+    <li><a href="#">Registros</a></li>
+    <li><a href="#">Consultas</a></li>
+    <li><a href="#">Ayuda</a></li>
+  </ul>
+
+        </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
