@@ -24,7 +24,6 @@ namespace Entidades
             Nombre = string.Empty;
             Apellido = string.Empty;
             Correo = string.Empty;
-            ConfirCorreo = string.Empty;
             Contrasena = string.Empty;
             ConfirContrasena = string.Empty;
         }

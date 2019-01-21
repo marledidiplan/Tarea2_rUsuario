@@ -24,7 +24,6 @@ namespace pUsuarioWeb.Registro
             usuario.Nombre = NombreTextbox.Text;
             usuario.Apellido = ApellidoTextbox.Text;
             usuario.Correo = CorreoTextBox.Text;
-            usuario.ConfirCorreo = CcorreoTextBox.Text;
             usuario.Contrasena = ContrasenaTextBox.Text;
             usuario.ConfirContrasena = CcontrasenaTextBox.Text;
             
@@ -69,7 +68,6 @@ namespace pUsuarioWeb.Registro
             NombreTextbox.Text = "";
             ApellidoTextbox.Text = "";
             CorreoTextBox.Text = "";
-            CcorreoTextBox.Text = "";
             CcontrasenaTextBox.Text = "";
             ContrasenaTextBox.Text = "";
         }
@@ -84,7 +82,6 @@ namespace pUsuarioWeb.Registro
                 NombreTextbox.Text = usuario.Nombre;
                 ApellidoTextbox.Text = usuario.Apellido;
                 CorreoTextBox.Text = usuario.Correo;
-                CcorreoTextBox.Text = usuario.ConfirCorreo;
                 ContrasenaTextBox.Text = usuario.Contrasena;
                 CcontrasenaTextBox.Text = usuario.ConfirContrasena;
             }

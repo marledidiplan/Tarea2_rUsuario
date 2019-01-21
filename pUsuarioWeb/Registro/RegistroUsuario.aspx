@@ -17,7 +17,7 @@
                     <asp:TextBox ID="IdTextbox" runat="server" placeholder="0"  class="form-control input-sm"></asp:TextBox>
                 </div>
                 <div class="col-md-1 col-sm-2 col-xm-4">
-                    <asp:Button ID="BuscarBtton" runat="server" Text="Buscar" class="btn btn-info btn" OnClik="BuscarBtton_Click" OnClick="BuscarBtton_Click"/>
+                    <asp:Button ID="BuscarBtton" runat="server" Text="Buscar" class="btn btn-info btn" OnClick="BuscarBtton_Click"/>
                 </div>
                 <br />
 
@@ -42,13 +42,6 @@
                 <label for="CorreoTextbox" class="col-md-3 control-label input-sm">Correo Electrico:</label>
                 <div class="col-md-8">
                     <asp:TextBox ID="CorreoTextBox" runat="server" class="form-control input-sm"></asp:TextBox>
-                    <br />
-                </div>
-            </div>
-            <div class="form-gruop col-md-12">
-                <label for="CcorreoTextbox" class="col-md-3 control-label input-sm">Confirmar Correo electrico:</label>
-                <div class="col-md-8">
-                    <asp:TextBox ID="CcorreoTextBox" runat="server" class="form-control input-sm"></asp:TextBox>
                     <br />
                 </div>
             </div>
